@@ -10,3 +10,7 @@ body{
   background-color: black;
   color: aliceblue;
 }
+
+.app{
+  padding: 2rem 1rem;
+}
