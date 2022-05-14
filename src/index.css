@@ -33,4 +33,20 @@ input{
 
 }
 
+button, a{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    color: greenyellow;
+    font-size: 22px;
+    line-height: 1;
+    text-decoration: none;
+}
 
+img{
+  display: block;
+  width: 100%;
+  max-width: 180px;
+  margin: 20px auto;
+}
