@@ -5,7 +5,10 @@ function App() {
   const [url, setUrl] = useState('')
   const [qrcode, setQrcode] = useState()
   const GenerateQRCode = () =>{
-    QRCode.toDataURL(url, (err,url) =>{
+    QRCode.toDataURL(url,{
+      width: 800,
+      margin: 2,
+    }, (err,url) =>{
       if(err) return console.error(err)
       console.log(url)
       setQrcode(url)
@@ -20,7 +23,12 @@ function App() {
           onChange={(evt) => setUrl(evt.target.value)}/>
 
         <button onClick={GenerateQRCode}>PROMPT</button>
-        <img src={qrcode}></img>
+        {qrcode && <>
+          <img src={qrcode}></img>
+          <a href={qrcode} download="qrcode.png" id='download'>BACKUP</a>
+        
+        </>}
+
     </div>
   )
 }

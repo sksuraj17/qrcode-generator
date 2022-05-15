@@ -18,11 +18,11 @@ body{
 h1{
   font-size: 44px;
   margin-bottom: 50px;
-  border: white;
+  border: rgb(0, 0, 0);
   border-style: dashed;
   border-width: 16px;
-  border-top-color: rgb(190, 255, 255);
-  border-bottom-color: rgb(245, 215, 250);
+  border-top-color: rgb(191, 191, 191);
+  border-bottom-color: rgb(92, 92, 92);
   padding: 8px;
 
 }
@@ -52,6 +52,7 @@ button, a{
     text-decoration: none;
     font-weight: 600;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 img{
@@ -62,4 +63,7 @@ img{
 
 }
 
-
+#download{
+  color: aqua;
+  border:5px
+}
