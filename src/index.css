@@ -44,9 +44,4 @@ button, a{
     text-decoration: none;
 }
 
-img{
-  display: block;
-  width: 100%;
-  max-width: 180px;
-  margin: 20px auto;
-}
+
