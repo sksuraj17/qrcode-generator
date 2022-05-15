@@ -12,18 +12,26 @@ body{
 }
 
 .app{
-  padding: 2rem 1rem;
+  padding: 12px 25px
 }
 
 h1{
   font-size: 44px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   border: rgb(0, 0, 0);
   border-style: dashed;
   border-width: 16px;
   border-top-color: rgb(191, 191, 191);
   border-bottom-color: rgb(92, 92, 92);
-  padding: 8px;
+  padding: 7px;
+
+}
+
+#para{
+  background-color: #1c1c1c;
+  padding: 13px 50px;
+  box-shadow: 3px 3px rgba(125, 125, 125, 0.5);
+  margin-bottom: 10px;
 
 }
 
@@ -53,6 +61,14 @@ button, a{
     font-weight: 600;
     cursor: pointer;
     margin-top: 20px;
+    padding: 6px 15px; 
+}
+
+button:hover{
+  background-color: #ffffff;
+  color: #000000;
+  border: #ffffff;
+  box-shadow: 3px 3px rgba(255, 255, 255, 0.5);
 }
 
 img{
@@ -64,6 +80,24 @@ img{
 }
 
 #download{
-  color: aqua;
-  border:5px
+  color: rgb(255, 255, 255);
+  border: #c5c5c5;
+  border-style: dashed;
+  padding: 6px 15px; 
+  border-width: 2px;
+  cursor: pointer;
+
+}
+
+#download:hover{
+  background-color: #ffffff;
+  color: #000000;
+  border: #ffffff;
+  box-shadow: 3px 3px rgba(169, 169, 169, 0.5);
+}
+
+#final{
+  margin-top: 22px;
+  font-family: monospace;
+  font-size: 14px;
 }
