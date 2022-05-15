@@ -19,7 +19,7 @@ function App() {
           value={url}
           onChange={(evt) => setUrl(evt.target.value)}/>
 
-        <button onClick={GenerateQRCode}>Prompt</button>
+        <button onClick={GenerateQRCode}>PROMPT</button>
         <img src={qrcode}></img>
     </div>
   )

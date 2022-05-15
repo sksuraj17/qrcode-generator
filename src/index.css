@@ -16,8 +16,15 @@ body{
 }
 
 h1{
-  font-size: 36px;
-  margin-bottom: 30px;
+  font-size: 44px;
+  margin-bottom: 50px;
+  border: white;
+  border-style: dashed;
+  border-width: 16px;
+  border-top-color: rgb(190, 255, 255);
+  border-bottom-color: rgb(245, 215, 250);
+  padding: 8px;
+
 }
 
 input{
@@ -27,9 +34,11 @@ input{
   background: #f7f7f7;
   width: 100%;
   max-width: 400px;
-  padding: 10px 20px;
-  margin-right: 25px;
+  padding: 12px 20px;
+  margin-right: 35px;
   border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 button, a{
@@ -41,14 +50,16 @@ button, a{
     font-size: 22px;
     line-height: 1;
     text-decoration: none;
-    font-weight: 00;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 img{
   display: block;
   width: 100%;
   max-width: 300px;
-  margin: 20px auto;
+  margin: 40px auto;
+
 }
 
 
