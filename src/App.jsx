@@ -20,7 +20,7 @@ function App() {
         <h1>QR-CODE GENERATOR</h1>
         <p id='para'>Quick Response Code is a machine-readable code consisting of an array of black and white squares, typically used for storing URLs or other information for reading by the camera on a smartphone.</p>
 
-        <input type="text" placeholder="https://www.example.com"
+        <input type="text" placeholder="Type here..."
           value={url}
           onChange={(evt) => setUrl(evt.target.value)}/>
 
