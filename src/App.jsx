@@ -15,9 +15,12 @@ function App() {
   return (
     <div className="app">
         <h1>QR-CODE GENERATOR</h1>
-        <input type="text" placeholder="https://www.example.com"></input>
-        <button>Prompt</button>
-        <img src=""></img>
+        <input type="text" placeholder="https://www.example.com"
+          value={url}
+          onChange={(evt) => setUrl(evt.target.value)}/>
+
+        <button onClick={GenerateQRCode}>Prompt</button>
+        <img src={qrcode}></img>
     </div>
   )
 }
