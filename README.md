@@ -1,6 +1,5 @@
 # QR-Code Generator
-
-![giphy](https://user-images.githubusercontent.com/64256552/169471663-872f31b7-bb85-4782-b21f-668c30f0ef26.gif)
+<p align="center" >&nbsp;<img align="center" src="https://user-images.githubusercontent.com/64256552/169471663-872f31b7-bb85-4782-b21f-668c30f0ef26.gif" /></p>
 
 QR-Code Generator using React JS. Quick Response Code is a machine-readable code consisting of an array of black and white squares, typically used for storing URLs or other information for reading by the camera on a smartphone.
 
